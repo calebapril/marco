@@ -1,42 +1,3 @@
-// "use client"
-
-// import Image from 'next/image'
-// import Link from 'next/link'
-// import React, { useState } from 'react'
-
-// function Menu() {
-
-//   const [open, setOpen] = useState(false)
-
-//   return (
-//     <div className=''>
-//       <Image src="/menu.png" alt='' width={28} height={28} className='cursor-pointer' onClick={()=>setOpen(prev=>!prev)}/>{
-//         open && (
-//           <div className='absolute bg-black text-white left-0 top-[144px] w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-8 text-xl z-10'>
-//             <Link href="/">Home</Link>
-//             <Link href="/">News</Link>
-//             <Link href="/">Attend</Link>
-//             <Link href="/">Conference</Link>
-//             <Link href="/">Festivals</Link>
-//             <Link href="/">Awards</Link>
-//             <Link href="/">Exhibitions</Link>
-//             <Link href="/">Marketing at MARCO-2025</Link>
-//             <Link href="/">Iconic Moments</Link>
-//           </div>
-//         )
-//       }
-//     </div>
-//   )
-// }
-
-// export default Menu
-
-
-
-
-
-
-
 "use client";
 
 
@@ -66,7 +27,7 @@ function Menu() {
         onClick={() => setOpen((prev) => !prev)}
       /> */}
       {open && (
-        <div className="absolute bg-black text-white left-0 top-[120px] w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-5 text-xl z-30">
+        <div className="absolute bg-black text-white left-0 top-9rem w-full h-[calc(100vh-80px)] flex flex-col items-center justify-center gap-5 text-xl z-40">
           {/* Menu Links */}
           <Link href="/">Home</Link>
           <Link href="/">News</Link>
