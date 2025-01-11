@@ -2,7 +2,7 @@ import React from 'react';
 
 function AboutUs() {
   return (
-    <section className="max-w-screen-xl mx-auto px-6 py-12 bg-white">
+    <section className="w-full mx-auto px-6 py-12 bg-white">
       <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 gap-8">
         
         {/* Image and Links Column (on top for small screens) */}
