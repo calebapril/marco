@@ -1,4 +1,5 @@
 import AboutUs from "@/components/AboutUs"
+import FeaturedSection from "@/components/FeaturedSection"
 import Hero from "@/components/Hero"
 
 const HomePage = () => {
@@ -6,6 +7,7 @@ const HomePage = () => {
     <div className=''>
       <Hero/>
       <AboutUs/>
+      <FeaturedSection/>
     </div>
   )
 }
